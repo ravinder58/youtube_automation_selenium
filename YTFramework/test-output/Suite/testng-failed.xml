@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.Testing.TestCases.YTFramework.ChannelSubscription">
+        <methods>
+          <include name="action"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- org.Testing.TestCases.YTFramework.ChannelSubscription -->
+      <class name="org.Testing.TestCases.YTFramework.Subscription">
+        <methods>
+          <include name="initialization"/>
+          <include name="action"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.Testing.TestCases.YTFramework.Subscription -->
+      <class name="org.Testing.TestCases.YTFramework.Trending">
+        <methods>
+          <include name="initialization"/>
+          <include name="action"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.Testing.TestCases.YTFramework.Trending -->
+      <class name="org.Testing.TestCases.YTFramework.HistoryCheck">
+        <methods>
+          <include name="action"/>
+          <include name="initialization"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- org.Testing.TestCases.YTFramework.HistoryCheck -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
