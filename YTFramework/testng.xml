@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.Testing.TestCases.YTFramework.Trending"/>
-      <class name="org.Testing.TestCases.YTFramework.Subscription"/>
-      <class name="org.Testing.TestCases.YTFramework.VideoPlay"/>
-      <class name="org.Testing.TestCases.YTFramework.ChannelSubscription"/>
-      <class name="org.Testing.TestCases.YTFramework.HistoryCheck"/>
+      <class name="org.Testing.testscripts.Trending"/>
+      <class name="org.Testing.testscripts.Subscription"/>
+      <class name="org.Testing.testscripts.VideoPlay"/>
+      <class name="org.Testing.testscripts.ChannelSubscription"/>
+      <class name="org.Testing.testscripts.HistoryCheck"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.Testing.TestCases.YTFramework.ChannelSubscription">
+      <class name="org.Testing.testscripts.Trending">
         <methods>
-          <include name="action"/>
           <include name="initialization"/>
+          <include name="action"/>
         </methods>
-      </class> <!-- org.Testing.TestCases.YTFramework.ChannelSubscription -->
+      </class> <!-- org.Testing.testscripts.Trending -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
